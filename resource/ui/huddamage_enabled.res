@@ -12,6 +12,7 @@
 		"delta_item_font"		"Damage20OutlineCodePro"
 		"delta_item_font_big"	"Damage20OutlineCodePro"
 	}
+
 	"DamageAccountValue"
 	{
 		"ControlName"					"CExLabel"
@@ -26,25 +27,25 @@
 		"labelText"						"%metal%"
 		"textAlignment"					"center"
 		"fgcolor"						"White"
-		"font"							"Product18"
+		"font"							"Product18Shadow"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"DamageAccountValueShadow"
-		"xpos"										"0"
+		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"152"
 		"tall"										"27"
-		"visible"						"1" 
-		"enabled"						"1"
+		"visible"						"0"
+		"enabled"						"0"
 		"labelText"						"%metal%"
 		"textAlignment"					"center"
 		"fgcolor"						"0 0 0 255"
 		"font"							"Product18"
-		
+
 		"pin_to_sibling"				"DamageAccountValue"
 	}
 }
@@ -62,4 +63,3 @@
 //Damage20OutlineCodePro
 //Damage20OutlineSharpened
 //Damage20OutlineCatamaran
-

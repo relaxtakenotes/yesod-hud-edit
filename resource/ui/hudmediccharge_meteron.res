@@ -13,7 +13,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -41,7 +41,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"IndividualChargesLabel"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"2"
 		"zpos"										"2"
 		"wide"										"50"
 		"tall"										"50"
@@ -49,7 +49,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"font"										"product37shadow"
+		"font"										"ProductBold38Shadow"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -155,8 +155,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"0"
-		"ypos"										"18"
+		"xpos"										"-4"
+		"ypos"										"15"
 		"wide"										"1"
 		"tall"										"50"
 		"visible"									"1"
@@ -166,7 +166,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"

@@ -3006,6 +3006,18 @@
 				"antialias" "1"
 			}
 		}
+		"product18shadow"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 		"product20"
 		{
 			"1"
@@ -3667,6 +3679,17 @@
 				"tall"		"38"
 				"antialias" "1"
 				"blur"		"1"
+				"antialias" "1"
+		  }
+		}
+		"ProductBold38Shadow"
+		{
+		  "1"
+		  {
+				"name"		"Product Sans Bold"
+				"tall"		"38"
+				"antialias" "1"
+				"dropshadow"		"1"
 				"antialias" "1"
 		  }
 		}

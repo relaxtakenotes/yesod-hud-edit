@@ -13,7 +13,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -49,7 +49,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
-		"font"										"Healthshadow"
+		"font"										"ProductBold38Shadow"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 
@@ -166,7 +166,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
