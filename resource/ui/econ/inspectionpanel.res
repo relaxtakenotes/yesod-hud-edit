@@ -53,7 +53,7 @@
 		"labelText"		"War Paints"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"580"
 		"tall"			"32"

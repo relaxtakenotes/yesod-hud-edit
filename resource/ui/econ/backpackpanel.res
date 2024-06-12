@@ -107,7 +107,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -115,10 +115,10 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -139,7 +139,7 @@
 				"textinsetx"	"8"
 				"autoResize"	"0"
 				"skip_autoresize"	"1"
-				"pinCorner"		"0"	
+				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
@@ -154,8 +154,8 @@
 		}
 	}
 
-	
-	
+
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -174,7 +174,7 @@
 		"enabled"		"0"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -201,7 +201,7 @@
 		"labelText"		"Backpack"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"580"
 		"tall"			"32"
@@ -336,13 +336,13 @@
 		"selectionbgColor_override" "255 255 255 16"
 		"selectionTextColor_override" "245 245 245 235"
 		"defaultSelectionBGColor_override" "255 255 255 16"
-		
+
 		"pin_to_sibling" "NameFilterTextEntry"
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 	}
 
-	
+
 	"ShowRarityComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -376,13 +376,13 @@
 		"selectionbgColor_override" "255 255 255 16"
 		"selectionTextColor_override" "245 245 245 235"
 		"defaultSelectionBGColor_override" "255 255 255 16"
-		
+
 		"pin_to_sibling" "SortByComboBox"
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 	}
-	
-	
+
+
 	"ShowBaseItemsCheckboxBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -397,7 +397,7 @@
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 	}
-	
+
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -418,12 +418,12 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		
+
 		"pin_to_sibling" "ShowRarityComboBox"
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 	}
-	
+
 	"CancelApplyToolButton"
 	{
 		"ControlName"	"CExButton"
@@ -447,16 +447,16 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"AllCaps"		"1"
-		
+
 		"armedBgColor_override"		"softred160"
-		
+
 		"pin_to_sibling" 		"ShowBaseItemsCheckboxBG"
 		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "3"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -471,14 +471,14 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_xpos"			"0"
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -502,7 +502,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mousedragitempanel"
-		
+
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -513,14 +513,14 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"model_ypos"	"3"
 		"model_tall"	"18"
 		"text_ypos"		"30"
 		"text_center"	"1"
 		"name_only"		"1"
 		"model_only"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -831,7 +831,7 @@
 			"scaleImage"	"1"
 			"image"			"replay/thumbnails/softicons/back"
 		}
-		
+
 		"pin_to_sibling" "CurPageLabel"
 		"pin_corner_to_sibling" "3"
 		"pin_to_sibling_corner" "2"
