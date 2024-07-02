@@ -18,7 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"0"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}	
+	}
 
 	"FakeBG"
 	{
@@ -101,8 +101,8 @@
 		"enabled"		"1"
 		"fillcolor"			"CollyHudDarkGray"
 		"scaleImage"	"1"
-	}	
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -113,7 +113,7 @@
 		"tabheight"		"20"
 		"yoffset"		"14"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -127,15 +127,15 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"				"12"
 			"textAlignment"				"center"
 			"font"						"HudFontSmallBold"
 			"selectedcolor"				"menutext"
-			"unselectedcolor"			"255 255 255 16"	
+			"unselectedcolor"			"255 255 255 16"
 			"defaultBgColor_override"	"0 0 0 165"
 			"armedBgColor_override"		"0 0 0 165"
 			"paintbackground"	"1"
@@ -143,7 +143,7 @@
 			"normalborder_override" 	"noborder"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -167,14 +167,14 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
 		"fieldName"			"armory_panel"
 		"xpos"				"0"
-		"ypos"				"30"
+		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"f0"
 		"zpos"				"500"
@@ -223,7 +223,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -247,6 +247,6 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 }

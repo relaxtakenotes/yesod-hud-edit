@@ -5,6 +5,7 @@
 		"ControlName"						"Frame"
 		"fieldName"							"armory_panel"
 		"wide"			"f0"
+		"ypos" 			"-30"
 		"zpos"			"501"
 		"visible"		"0"
 		"autoResize"	"0"
@@ -40,7 +41,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"7"
 			"model_ypos"	"5"
 			"model_wide"	"58"
@@ -48,10 +49,10 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -78,7 +79,7 @@
 		"enabled"		"0"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
@@ -87,14 +88,14 @@
 		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"center"
 		"xpos"			"c-300"
-		"ypos"			"30"
-		"zpos"			"1"
+		"ypos"			"999"
+		"zpos"			"-1000"
 		"wide"			"560"
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"White"
 	}
 	"ArmoryLabelShadow"
@@ -105,14 +106,14 @@
 		"labelText"		"Mann Co. Catalog"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"-1"
-		"zpos"			"1"
+		"ypos"			"9999"
+		"zpos"			"-1000"
 		"wide"			"560"
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"0 0 0 255"
 
 		"pin_to_sibling"	"ArmoryLabel"
@@ -214,7 +215,7 @@
 	}
 
 	"SelectedItemModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemModelPanel"
 		"xpos"			"c25"
@@ -226,20 +227,20 @@
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
+
 		"model_hide"	"1"
 		"text_center"	"1"
 		"resize_to_text" "1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SelectedItemImageModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
 		"xpos"			"c-280"		// Slightly right of center, because the photo background is
@@ -251,21 +252,21 @@
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
+
 		"model_ypos"	"10"
 		"model_tall"	"120"
 		"name_only"		"0"
 		"attrib_only"	"0"
 		"model_only"	"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 
 	"mouseoveritempanel"
 	{
@@ -281,22 +282,22 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"0"
 		"resize_to_text"	"0"
 		"padding_height"	"15"
 		"name_only"			"1"
-		
+
 		"model_ypos"	"40"
 		"model_xpos"	"50"
 		"model_wide"	"156"
 		"model_tall"	"100"
-		
+
 		"text_forcesize"	"1"
 		"is_mouseover"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -353,7 +354,7 @@
 			"scaleImage"					"1"
 			"image"							"replay/thumbnails/softicons/back"
 		}
-		
+
 		"pin_to_sibling" 					"CurPageLabel"
 		"pin_corner_to_sibling" 			"3"
 		"pin_to_sibling_corner" 			"2"
@@ -376,7 +377,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"fgcolor_override" 					"White"
-		
+
 		"pin_to_sibling" 					"NextPageButton"
 		"pin_corner_to_sibling" 			"3"
 		"pin_to_sibling_corner" 			"2"
@@ -456,7 +457,7 @@
 		"Command"							"wiki"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling" 					"FilterComboBox"
 		"pin_corner_to_sibling" 			"2"
 		"pin_to_sibling_corner"				"3"
@@ -486,7 +487,7 @@
 		"Command"							"viewset"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling" 					"StoreButton"
 		"pin_corner_to_sibling" 			"2"
 		"pin_to_sibling_corner" 			"3"
@@ -515,7 +516,7 @@
 		"Command"							"openstore"
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling" 					"WikiButton"
 		"pin_corner_to_sibling" 			"2"
 		"pin_to_sibling_corner" 			"3"

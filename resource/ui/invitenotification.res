@@ -3,14 +3,16 @@
 	"InviteNotification"
 	{
 		"fieldName"		"InviteNotification"
-		"zpos"			"1"
+		"zpos"			"10005"
 		"wide"			"200"
 		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"border"		"ReplayDefaultBorder"
 		"paintbackground"	"0"
-		"bgcolor_override"	"255 0 0 250"
+
+		"bgcolor_override"	"MenuTransBlack"
+		"bgcolor"	"MenuTransBlack"
 	}
 
 	"avatar"
@@ -31,7 +33,7 @@
 	{
 		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"Text"
-		
+
 
 		if_incoming
 		{
@@ -46,7 +48,7 @@
 		"labelText"		"%invite%"
 		"textAlignment"	"east"
 		"proportionaltoparent"	"1"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"255 255 255 255"
 
 		"fonts"
 		{
@@ -88,7 +90,7 @@
 			"visible"		"0"
 		}
 
-		
+
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"alpha"			"200"
@@ -107,7 +109,7 @@
 		"wide"			"80"
 		"zpos"			"100"
 		"tall"			"15"
-				
+
 		"visible"		"1"
 
 		"enabled"		"1"
@@ -123,8 +125,8 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"SaleGreen"
+		"armedBgColor_override"		"softgreen160"
+		"defaultBgColor_override"	"MenuTransBlack"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -134,7 +136,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeclineButton"
-		
+
 		if_incoming
 		{
 			"xpos"			"rs1-5"
@@ -146,7 +148,7 @@
 		"wide"			"60"
 		"zpos"			"100"
 		"tall"			"15"
-				
+
 		"visible"		"1"
 
 		"enabled"		"1"
@@ -162,6 +164,8 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
+		"armedBgColor_override"		"softgreen160"
+		"defaultBgColor_override"	"MenuTransBlack"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

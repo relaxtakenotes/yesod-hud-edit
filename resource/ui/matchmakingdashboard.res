@@ -598,6 +598,9 @@
 				"proportionaltoparent"	"1"
 
 				"border"		"ReplayDefaultBorder"
+
+				"bgcolor_override"	"CollyHudDarkGray"
+				"bgcolor"	"CollyHudDarkGray"
 			}
 
 			"PromptText"
@@ -952,7 +955,6 @@
 			"fieldName"		"FindAGameButton"
 			"ypos"			"9999"
 			"tall"			"0"
-		}
 		}
 	}
 }
